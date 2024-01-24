@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_1173448_novos_0_novos_funcionarios" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Novos funcionarios - Default view" name="x_1173448_novos_0_novos_funcionarios" related_list="NULL" sys_domain="global" view="Default view">5f05692e97bfbd10489d747e6253aff6</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-20 19:58:17</sys_created_on>
+            <sys_id>5f05692e97bfbd10489d747e6253aff7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-20 19:58:17</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Novos funcionarios - Default view</calculated_name>
+            <filter/>
+            <name>x_1173448_novos_0_novos_funcionarios</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-20 19:58:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f05692e97bfbd10489d747e6253aff6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Novos funcionarios - Default view</sys_name>
+            <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+            <sys_update_name>sys_ui_related_x_1173448_novos_0_novos_funcionarios_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-20 19:58:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sys_ui_related_x_1173448_novos_0_novos_funcionarios_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_1173448_novos_0_novos_funcionarios" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Novos funcionarios - Default view" name="x_1173448_novos_0_novos_funcionarios" related_list="NULL" sys_domain="global" view="Default view">5f05692e97bfbd10489d747e6253aff6</list_id><order_by/><position>0</position><related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-20 19:58:17</sys_created_on><sys_id>5f05692e97bfbd10489d747e6253aff7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-20 19:58:17</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Novos funcionarios - Default view</calculated_name><filter/><name>x_1173448_novos_0_novos_funcionarios</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-20 19:58:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5f05692e97bfbd10489d747e6253aff6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Novos funcionarios - Default view</sys_name><sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package><sys_policy/><sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope><sys_update_name>sys_ui_related_x_1173448_novos_0_novos_funcionarios_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-20 19:58:17</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>39911715</payload_hash>
+        <record_name>Novos funcionarios</record_name>
+        <reverted_from/>
+        <source>8c0cf822973fbd10489d747e6253af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 19:58:17</sys_created_on>
+        <sys_id>5f0529ae97bfbd10489d747e6253af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d2873daf40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 19:58:17</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>570529aeddbfbd103594aa7b6025214a</update_guid>
+        <update_guid_history>570529aeddbfbd103594aa7b6025214a:39911715,4f03a5eaf5bfbd10dd0271b8c3f8d536:-1503021853,46d1656a90bfbd103ffe36f79b42a193:1469430223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 20:36:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>3e32396acf624f60b08c0f6f0722df10</sys_id>
+        <sys_metadata>5f05692e97bfbd10489d747e6253aff6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Novos funcionarios - Default view</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent display_value="">677e4926977fbd10489d747e6253af6d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_1173448_novos_0_novos_funcionarios_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_1173448_novos_0_novos_funcionarios_null">5f0529ae97bfbd10489d747e6253af4a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 20:36:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

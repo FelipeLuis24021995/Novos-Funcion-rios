@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="foto" label="Foto" language="en" table="x_1173448_novos_0_notebook">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>foto</element>
+            <help/>
+            <hint/>
+            <label>Foto</label>
+            <language>en</language>
+            <name>x_1173448_novos_0_notebook</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-20 18:35:35</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Foto</sys_name>
+            <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+            <sys_update_name>sys_documentation_x_1173448_novos_0_notebook_foto_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-21 02:46:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

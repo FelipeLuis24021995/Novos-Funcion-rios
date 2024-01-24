@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="nome" table="x_1173448_novos_0_fewafewa">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Nome</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>nome</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1173448_novos_0_fewafewa</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 22:47:58</sys_created_on>
+        <sys_id>f4eb8eaa9773fd10489d747e6253afba</sys_id>
+        <sys_name>Nome</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sys_dictionary_x_1173448_novos_0_fewafewa_nome</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 22:47:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sys_dictionary_x_1173448_novos_0_fewafewa_nome</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="nome" table="x_1173448_novos_0_fewafewa"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Nome</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>nome</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1173448_novos_0_fewafewa</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-20 22:47:58</sys_created_on><sys_id>f4eb8eaa9773fd10489d747e6253afba</sys_id><sys_name>Nome</sys_name><sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package><sys_policy/><sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope><sys_update_name>sys_dictionary_x_1173448_novos_0_fewafewa_nome</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-20 22:47:58</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-748574749</payload_hash>
+        <record_name>fewafewa.Nome</record_name>
+        <reverted_from/>
+        <source>8c0cf822973fbd10489d747e6253af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 22:47:59</sys_created_on>
+        <sys_id>89ebceaa9773fd10489d747e6253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d290f356b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 22:47:59</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>81ebceaae773fd10ae5fd60686e0668b</update_guid>
+        <update_guid_history>81ebceaae773fd10ae5fd60686e0668b:-748574749,70ebceaae673fd10d76d0e1dee936682:913112800</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 23:45:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>6a12a34409d3407e9bdc3d60772061e4</sys_id>
+        <sys_metadata>f4eb8eaa9773fd10489d747e6253afba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nome</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent display_value="">98db4eaa9773fd10489d747e6253af23</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1173448_novos_0_fewafewa_nome</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1173448_novos_0_fewafewa_nome">89ebceaa9773fd10489d747e6253af8b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 23:45:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

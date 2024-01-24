@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="Novos funcionários search profile">87dfb9ea4833fd105bf66137f9199e78</profile>
+        <search_source display_value="Notebook">98ef3dea9733fd10489d747e6253af0f</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:55:31</sys_created_on>
+        <sys_id>54ef3dea9733fd10489d747e6253af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Novos funcionários search profile.Notebook</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_54ef3dea9733fd10489d747e6253af12</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:55:31</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Onboarding de novos colaboradores">18b882471d33715021b69fce7c93b5af</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 11:50:59</sys_created_on>
+        <sys_id>58b88247b2337150073702a1ad9d8ab4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>par_dashboard_canvas_58b88247b2337150073702a1ad9d8ab4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 11:50:59</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

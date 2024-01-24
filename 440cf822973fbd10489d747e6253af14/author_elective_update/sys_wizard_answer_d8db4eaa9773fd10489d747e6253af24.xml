@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>fewafewa</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>fewafewa</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">cd6f9cb6d423211095d7c105f1bf43f1</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 22:47:40</sys_created_on>
+        <sys_id>d8db4eaa9773fd10489d747e6253af24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fewafewa</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sys_wizard_answer_d8db4eaa9773fd10489d747e6253af24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 22:47:40</sys_updated_on>
+        <table/>
+        <target_url>x_1173448_novos_0_fewafewa.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sys_wizard_answer_d8db4eaa9773fd10489d747e6253af24</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>fewafewa</answer><button_label/><dependent_value/><element/><name>fewafewa</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">cd6f9cb6d423211095d7c105f1bf43f1</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-20 22:47:40</sys_created_on><sys_id>d8db4eaa9773fd10489d747e6253af24</sys_id><sys_mod_count>0</sys_mod_count><sys_name>fewafewa</sys_name><sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package><sys_policy/><sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope><sys_update_name>sys_wizard_answer_d8db4eaa9773fd10489d747e6253af24</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-20 22:47:40</sys_updated_on><table/><target_url>x_1173448_novos_0_fewafewa.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1559106936</payload_hash>
+        <record_name>fewafewa</record_name>
+        <reverted_from/>
+        <source>f231d62097023110489d747e6253afed</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-19 18:13:36</sys_created_on>
+        <sys_id>f4f85e6e97b3fd10489d747e6253af72</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b492494800000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>b4f85e6e17b3fd1081e14c8dde5efe72</update_guid>
+        <update_guid_history>b4f85e6e17b3fd1081e14c8dde5efe72:1559106936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 23:45:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>60d3ababc9b44788a17a5cea18a4f840</sys_id>
+        <sys_metadata>d8db4eaa9773fd10489d747e6253af24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fewafewa</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent display_value="Task">cd6f9cb6d423211095d7c105f1bf43f1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_d8db4eaa9773fd10489d747e6253af24</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_d8db4eaa9773fd10489d747e6253af24">f4f85e6e97b3fd10489d747e6253af72</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 23:45:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

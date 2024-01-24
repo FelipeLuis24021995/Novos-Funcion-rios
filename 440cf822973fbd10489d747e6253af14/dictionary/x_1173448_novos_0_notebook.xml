@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="10901da6977fbd10489d747e6253af70" label="Notebook" max_length="40" name="x_1173448_novos_0_notebook" text_index="true" type="collection">
+        <element choice="1" label="Armazenamento" max_length="40" name="armazenamento" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 T" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 T" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 T" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Disponível" max_length="40" name="ativo" type="boolean"/>
+        <element label="Disponível para" max_length="32" name="disponivel_para" reference="sys_user" reference_qual="title=Desafio^EQ" reference_qual_condition="title=Desafio^EQ" type="reference"/>
+        <element label="Foto" max_length="40" name="foto" type="user_image"/>
+        <element choice="1" label="Marca" max_length="40" name="marca" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Samsung" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Apple" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Memória RAM" max_length="40" name="memoria_ram" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="16 g" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="32 g" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Placa de Vídeo" max_length="40" name="placa_de_video" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Geforce" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="AMD" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Processador" max_length="40" name="processador" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="i3" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="i5" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="i7" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="i9" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element label="Requisição" max_length="32" name="requisicao" read_only="true" reference="sc_req_item" type="reference"/>
+        <element choice="1" label="Sistema Operacional" max_length="40" name="sistema_operacional" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Windows" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Mac" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Linux" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="disponivel_para"/>
+        </index>
+        <index name="index2">
+            <element name="requisicao"/>
+        </index>
+    </element>
+</database>

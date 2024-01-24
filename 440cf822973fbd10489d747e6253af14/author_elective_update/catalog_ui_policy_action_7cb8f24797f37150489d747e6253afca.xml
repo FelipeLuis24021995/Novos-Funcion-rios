@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Cadastrar Novo Notebook">7fcc6ec797b37150489d747e6253afd5</catalog_item>
+        <catalog_variable>IO:1dfe228b97b37150489d747e6253af50</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 15:21:14</sys_created_on>
+        <sys_id>7cb8f24797f37150489d747e6253afca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sistema_operacional</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7cb8f24797f37150489d747e6253afca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 15:21:14</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Quando for none">6f68fe0797f37150489d747e6253af67</ui_policy>
+        <variable>sistema_operacional</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>catalog_ui_policy_action_7cb8f24797f37150489d747e6253afca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Cadastrar Novo Notebook">7fcc6ec797b37150489d747e6253afd5</catalog_item><catalog_variable>IO:1dfe228b97b37150489d747e6253af50</catalog_variable><cleared>true</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-22 15:21:14</sys_created_on><sys_id>7cb8f24797f37150489d747e6253afca</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sistema_operacional</sys_name><sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package><sys_policy/><sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope><sys_update_name>catalog_ui_policy_action_7cb8f24797f37150489d747e6253afca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-22 15:21:14</sys_updated_on><table/><ui_policy display_value="Quando for none">6f68fe0797f37150489d747e6253af67</ui_policy><variable>sistema_operacional</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-438916028</payload_hash>
+        <record_name>sistema_operacional</record_name>
+        <reverted_from/>
+        <source>8c0cf822973fbd10489d747e6253af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 15:21:14</sys_created_on>
+        <sys_id>d0d8b2c397f37150489d747e6253af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d31c2eba50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 15:21:14</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>1cd8b2c3e5f37150540951c0d600e875</update_guid>
+        <update_guid_history>1cd8b2c3e5f37150540951c0d600e875:-438916028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="sistema_operacional">58b97a8797f37150489d747e6253af61</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 15:25:04</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>0be7ea98654547cc8ebc290832086a24</sys_id>
+        <sys_metadata>7cb8f24797f37150489d747e6253afca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sistema_operacional</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_7cb8f24797f37150489d747e6253afca</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_7cb8f24797f37150489d747e6253afca">d0d8b2c397f37150489d747e6253af76</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 15:25:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

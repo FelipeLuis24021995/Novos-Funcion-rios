@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>18b882477533715038d8f1397b03deb6</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>onboarding-de-novos-colaboradores</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 11:50:59</sys_created_on>
+        <sys_id>10b882474a337150ca9ae1e358cf88b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboarding de novos colaboradores</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sys_ux_page_registry_10b882474a337150ca9ae1e358cf88b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 11:50:59</sys_updated_on>
+        <title>Onboarding de novos colaboradores</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sys_ux_page_registry_10b882474a337150ca9ae1e358cf88b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>18b882477533715038d8f1397b03deb6</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>onboarding-de-novos-colaboradores</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-22 11:50:59</sys_created_on><sys_id>10b882474a337150ca9ae1e358cf88b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Onboarding de novos colaboradores</sys_name><sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package><sys_policy/><sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope><sys_update_name>sys_ux_page_registry_10b882474a337150ca9ae1e358cf88b0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-22 11:50:59</sys_updated_on><title>Onboarding de novos colaboradores</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>821741389</payload_hash>
+        <record_name>Onboarding de novos colaboradores</record_name>
+        <reverted_from/>
+        <source>f231d62097023110489d747e6253afed</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-10-19 18:13:36</sys_created_on>
+        <sys_id>2c190e4797337150489d747e6253af95</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18b492494800000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>e8190e47d6337150b7678f93aa778195</update_guid>
+        <update_guid_history>e8190e47d6337150b7678f93aa778195:821741389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 11:52:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0ee75c3d914f4c94a557c98834c69c44</sys_id>
+        <sys_metadata>10b882474a337150ca9ae1e358cf88b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Onboarding de novos colaboradores</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_10b882474a337150ca9ae1e358cf88b0</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_10b882474a337150ca9ae1e358cf88b0">2c190e4797337150489d747e6253af95</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 11:52:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

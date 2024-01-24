@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9093e83f97f7f150489d747e6253afd9" label="Envio de notebook" max_length="40" name="x_1173448_novos_0_envio_de_notebook" type="collection">
+        <element label="Bairro" max_length="40" name="bairro" type="string"/>
+        <element label="Cep" max_length="40" name="cep" type="string"/>
+        <element label="Cidade" max_length="40" name="cidade" type="string"/>
+        <element label="Complemento" max_length="50" name="complemento" type="string"/>
+        <element active="false" label="Completemento" max_length="50" name="completemento" type="string"/>
+        <element label="Endereço Completo" max_length="100" name="endereco_completo" type="string"/>
+        <element label="Estado" max_length="40" name="estado" type="string"/>
+        <element label="Logradouro" max_length="50" name="logradouro" type="string"/>
+        <element label="Notebook" max_length="32" name="notebook" reference="x_1173448_novos_0_notebook" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Requisição" max_length="32" name="requisicao" reference="sc_req_item" type="reference"/>
+        <element active="false" choice="1" default="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Aguardando Envio" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Enviado" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Usuário" max_length="32" name="usuario" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="notebook"/>
+        </index>
+        <index name="index2">
+            <element name="requisicao"/>
+        </index>
+        <index name="index3">
+            <element name="usuario"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 14:14:53</sys_created_on>
+        <sys_id>8e33fbdf9777b150489d747e6253af1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.1173448.novos-funcionrios.x_1173448_novos_0.Financeiro - Desafio</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_security_acl display_value="x.1173448.novos-funcionrios">ca33fbdf9777b150489d747e6253af1b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8e33fbdf9777b150489d747e6253af1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 14:14:53</sys_updated_on>
+        <sys_user_role display_value="x_1173448_novos_0.Financeiro - Desafio" name="x_1173448_novos_0.Financeiro - Desafio">7933bbdf9777b150489d747e6253aff5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

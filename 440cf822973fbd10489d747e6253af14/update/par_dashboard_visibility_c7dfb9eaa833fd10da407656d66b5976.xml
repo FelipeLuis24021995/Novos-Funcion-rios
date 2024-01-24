@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="Novos funcionários">07dfb9ea5933fd10d911032f74e41d72</dashboard>
+        <experience display_value="Novos funcionários">0fdfb9ea7c33fd10eded3554b2c61272</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:55:25</sys_created_on>
+        <sys_id>c7dfb9eaa833fd10da407656d66b5976</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>par_dashboard_visibility_c7dfb9eaa833fd10da407656d66b5976</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:55:25</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

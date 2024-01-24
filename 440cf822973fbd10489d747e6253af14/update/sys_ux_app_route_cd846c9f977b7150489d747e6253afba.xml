@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Novos funcionários Config">03dfb9ead433fd1093bcf25ca640bf79</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>fewaf</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Novos funcionários - Usuários">02100aea9733fd10489d747e6253afec</parent_macroponent>
+        <parent_macroponent_composition_element_id>viewport_vhd</parent_macroponent_composition_element_id>
+        <route_type>fewaf</route_type>
+        <screen_type display_value="fewaf">34842c9f977b7150489d747e6253af96</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 23:11:46</sys_created_on>
+        <sys_id>cd846c9f977b7150489d747e6253afba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fewaf</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sys_ux_app_route_cd846c9f977b7150489d747e6253afba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 23:11:46</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd846c9f977b7150489d747e6253afba"/>
+</record_update>

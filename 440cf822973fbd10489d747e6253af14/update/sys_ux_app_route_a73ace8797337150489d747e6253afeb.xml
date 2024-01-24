@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Novos funcionários Config">03dfb9ead433fd1093bcf25ca640bf79</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Novos funcionários - Cadastrar Novo funcionário</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>novos-funcion-rios-departamento-t-cnico</route_type>
+        <screen_type display_value="Novos funcionários - Cadastrar Novo funcionário">db3a0e8797337150489d747e6253af3b</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 11:57:45</sys_created_on>
+        <sys_id>a73ace8797337150489d747e6253afeb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Novos funcionários - Cadastrar Novo funcionário</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sys_ux_app_route_a73ace8797337150489d747e6253afeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 14:10:58</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a73ace8797337150489d747e6253afeb"/>
+</record_update>

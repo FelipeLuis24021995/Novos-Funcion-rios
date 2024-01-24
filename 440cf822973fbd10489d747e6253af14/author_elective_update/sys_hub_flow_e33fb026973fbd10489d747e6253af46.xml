@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description/>
+        <internal_name>flow_de_novo_funcionario__desafio</internal_name>
+        <label_cache>[{"name":"4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task","label":"1 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master_snapshot>aa70c966973fbd10489d747e6253af61</master_snapshot>
+        <name>Flow de novo funcionario - Desafio</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>4cf509ea973fbd10489d747e6253aff6</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:13:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e33fb026973fbd10489d747e6253af46</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Flow de novo funcionario - Desafio</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sys_hub_flow_e33fb026973fbd10489d747e6253af46</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:22</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=e33fb026973fbd10489d747e6253af46"/>
+    <sys_variable_value action="DELETE" query="document_key=e33fb026973fbd10489d747e6253af46"/>
+    <sys_flow_catalog_trigger action="DELETE">
+        <active>true</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>background</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4cf509ea973fbd10489d747e6253aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="DELETE" query="identifier=e33fb026973fbd10489d747e6253af46"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=e33fb026973fbd10489d747e6253af46^sys_idNOT IN46e585ea973fbd10489d747e6253afc9"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">e33fb026973fbd10489d747e6253af46</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>46e585ea973fbd10489d747e6253afc9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=46e585ea973fbd10489d747e6253afc9"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=e33fb026973fbd10489d747e6253af46"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=e33fb026973fbd10489d747e6253af46^sys_idNOT INa33fb026973fbd10489d747e6253af48"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>e33fb026973fbd10489d747e6253af46</id>
+        <name>Flow de novo funcionario - Desafio</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:13:07</sys_created_on>
+        <sys_id>a33fb026973fbd10489d747e6253af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:13:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=a33fb026973fbd10489d747e6253af48"/>
+    <sys_hub_flow_input action="DELETE" query="model=e33fb026973fbd10489d747e6253af46^sys_idNOT IN61708966973fbd10489d747e6253af98,fde585ea973fbd10489d747e6253afb4"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Flow de novo funcionario - Desafio">e33fb026973fbd10489d747e6253af46</model>
+        <model_id>e33fb026973fbd10489d747e6253af46</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:18:25</sys_created_on>
+        <sys_id>61708966973fbd10489d747e6253af98</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Flow de novo funcionario - Desafio">e33fb026973fbd10489d747e6253af46</model>
+        <model_id>e33fb026973fbd10489d747e6253af46</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:12</sys_created_on>
+        <sys_id>fde585ea973fbd10489d747e6253afb4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=e33fb026973fbd10489d747e6253af46"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=e33fb026973fbd10489d747e6253af46"/>
+    <sys_hub_action_instance action="DELETE" query="flow=e33fb026973fbd10489d747e6253af46^sys_idNOT IN06e585ea973fbd10489d747e6253afed,8ee585ea973fbd10489d747e6253afdd,8ee585ea973fbd10489d747e6253afe6"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">e33fb026973fbd10489d747e6253af46</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>06e585ea973fbd10489d747e6253afed</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:22</sys_updated_on>
+        <ui_id>97715bb1-3d00-4d52-85da-76d3b84dbde7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=06e585ea973fbd10489d747e6253afed"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>06e585ea973fbd10489d747e6253afed</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>86e585ea973fbd10489d747e6253afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>06e585ea973fbd10489d747e6253afed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>c2e585ea973fbd10489d747e6253afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=06e585ea973fbd10489d747e6253afed"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>06e585ea973fbd10489d747e6253afed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>42e585ea973fbd10489d747e6253afef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>06e585ea973fbd10489d747e6253afed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>cae585ea973fbd10489d747e6253afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>06e585ea973fbd10489d747e6253afed</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>8ee585ea973fbd10489d747e6253afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=06e585ea973fbd10489d747e6253afed"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=06e585ea973fbd10489d747e6253afed"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">e33fb026973fbd10489d747e6253af46</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>8ee585ea973fbd10489d747e6253afdd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:22</sys_updated_on>
+        <ui_id>4c641638-558d-4a97-98cb-767beb000cfe</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=8ee585ea973fbd10489d747e6253afdd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8ee585ea973fbd10489d747e6253afdd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>c2e585ea973fbd10489d747e6253afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <value>Criar login e senha</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8ee585ea973fbd10489d747e6253afdd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>cae585ea973fbd10489d747e6253afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <value>assignment_group={"display":"Analistas","value":"112ca17c978bf110489d747e6253af21","sys_id":"112ca17c978bf110489d747e6253af21"}</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8ee585ea973fbd10489d747e6253afdd"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_fields</field>
+        <id>8ee585ea973fbd10489d747e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>42e585ea973fbd10489d747e6253afe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_requested_item</field>
+        <id>8ee585ea973fbd10489d747e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>8ee585ea973fbd10489d747e6253afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_short_description</field>
+        <id>8ee585ea973fbd10489d747e6253afdd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>c6e585ea973fbd10489d747e6253afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=8ee585ea973fbd10489d747e6253afdd"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=8ee585ea973fbd10489d747e6253afdd"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">e33fb026973fbd10489d747e6253af46</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>8ee585ea973fbd10489d747e6253afe6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:22</sys_updated_on>
+        <ui_id>63b79aa5-5101-4349-9d89-e9492d952ae9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=8ee585ea973fbd10489d747e6253afe6"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8ee585ea973fbd10489d747e6253afe6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>86e585ea973fbd10489d747e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8ee585ea973fbd10489d747e6253afe6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>c2e585ea973fbd10489d747e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=8ee585ea973fbd10489d747e6253afe6"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>8ee585ea973fbd10489d747e6253afe6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>8ee585ea973fbd10489d747e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>8ee585ea973fbd10489d747e6253afe6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>cae585ea973fbd10489d747e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>8ee585ea973fbd10489d747e6253afe6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>42e585ea973fbd10489d747e6253afe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=8ee585ea973fbd10489d747e6253afe6"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=8ee585ea973fbd10489d747e6253afe6"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=e33fb026973fbd10489d747e6253af46"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=e33fb026973fbd10489d747e6253af46"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=e33fb026973fbd10489d747e6253af46"/>
+    <sys_hub_flow_variable action="DELETE" query="model=e33fb026973fbd10489d747e6253af46"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46^sys_idNOT INa5708966973fbd10489d747e6253af9a,c2e585ea973fbd10489d747e6253afb8"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:18:25</sys_created_on>
+        <sys_id>a5708966973fbd10489d747e6253af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:18:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:13</sys_created_on>
+        <sys_id>c2e585ea973fbd10489d747e6253afb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_e33fb026973fbd10489d747e6253af46"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_e33fb026973fbd10489d747e6253af46"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=e33fb026973fbd10489d747e6253af46^sys_idNOT IN7a70c966973fbd10489d747e6253aff2"/>
+    <sys_flow_trigger_plan action="DELETE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7a70c966973fbd10489d747e6253aff2","name":"plan","plan_signature":null}}</plan>
+        <plan_id>e33fb026973fbd10489d747e6253af46</plan_id>
+        <snapshot>aa70c966973fbd10489d747e6253af61</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:18:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a70c966973fbd10489d747e6253aff2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+        <trigger display_value="">4cf509ea973fbd10489d747e6253aff6</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=e33fb026973fbd10489d747e6253af46"/>
+    <sys_hub_flow_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description/>
+        <internal_name>flow_de_novo_funcionario__desafio</internal_name>
+        <label_cache>[{"name":"4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task","label":"1 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <master>true</master>
+        <name>Flow de novo funcionario - Desafio</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Flow de novo funcionario - Desafio">e33fb026973fbd10489d747e6253af46</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:18:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa70c966973fbd10489d747e6253af61</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=aa70c966973fbd10489d747e6253af61"/>
+    <sys_variable_value action="DELETE" query="document_key=aa70c966973fbd10489d747e6253af61"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=aa70c966973fbd10489d747e6253af61^sys_idNOT INffe509ea973fbd10489d747e6253af5f"/>
+    <sys_hub_trigger_instance action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">aa70c966973fbd10489d747e6253af61</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>ffe509ea973fbd10489d747e6253af5f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="DELETE" query="document_key=ffe509ea973fbd10489d747e6253af5f"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=aa70c966973fbd10489d747e6253af61"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=aa70c966973fbd10489d747e6253af61^sys_idNOT IN2e70c966973fbd10489d747e6253af62"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>aa70c966973fbd10489d747e6253af61</id>
+        <name>Flow de novo funcionario - Desafio</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:18:30</sys_created_on>
+        <sys_id>2e70c966973fbd10489d747e6253af62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:18:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=2e70c966973fbd10489d747e6253af62"/>
+    <sys_hub_flow_input action="DELETE" query="model=aa70c966973fbd10489d747e6253af61^sys_idNOT IN3a70c966973fbd10489d747e6253afcf,63e509ea973fbd10489d747e6253af4a"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Flow de novo funcionario - Desafio">aa70c966973fbd10489d747e6253af61</model>
+        <model_id>aa70c966973fbd10489d747e6253af61</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:18:30</sys_created_on>
+        <sys_id>3a70c966973fbd10489d747e6253afcf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Flow de novo funcionario - Desafio">aa70c966973fbd10489d747e6253af61</model>
+        <model_id>aa70c966973fbd10489d747e6253af61</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>63e509ea973fbd10489d747e6253af4a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="DELETE" query="model=aa70c966973fbd10489d747e6253af61"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=aa70c966973fbd10489d747e6253af61"/>
+    <sys_hub_action_instance action="DELETE" query="flow=aa70c966973fbd10489d747e6253af61^sys_idNOT IN73e509ea973fbd10489d747e6253af72,7fe509ea973fbd10489d747e6253af68,bbe509ea973fbd10489d747e6253af79"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">aa70c966973fbd10489d747e6253af61</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>73e509ea973fbd10489d747e6253af72</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <ui_id>63b79aa5-5101-4349-9d89-e9492d952ae9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=73e509ea973fbd10489d747e6253af72"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>73e509ea973fbd10489d747e6253af72</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>33e509ea973fbd10489d747e6253af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>73e509ea973fbd10489d747e6253af72</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>f3e509ea973fbd10489d747e6253af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=73e509ea973fbd10489d747e6253af72"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>73e509ea973fbd10489d747e6253af72</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>fbe509ea973fbd10489d747e6253af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>73e509ea973fbd10489d747e6253af72</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>3be509ea973fbd10489d747e6253af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>73e509ea973fbd10489d747e6253af72</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>bfe509ea973fbd10489d747e6253af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=73e509ea973fbd10489d747e6253af72"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=73e509ea973fbd10489d747e6253af72"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task">af51fd0e73141300612c273ffff6a785</action_type>
+        <action_type_parent display_value="Create Catalog Task">f597c41073081300612c273ffff6a767</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">aa70c966973fbd10489d747e6253af61</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>7fe509ea973fbd10489d747e6253af68</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <ui_id>4c641638-558d-4a97-98cb-767beb000cfe</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=7fe509ea973fbd10489d747e6253af68"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7fe509ea973fbd10489d747e6253af68</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>73e509ea973fbd10489d747e6253af6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <value>assignment_group={"display":"Analistas","value":"112ca17c978bf110489d747e6253af21","sys_id":"112ca17c978bf110489d747e6253af21"}</value>
+        <variable display_value="Fields">7751fd0e73141300612c273ffff6a7ac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7fe509ea973fbd10489d747e6253af68</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>bfe509ea973fbd10489d747e6253af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <value>Criar login e senha</value>
+        <variable display_value="Short Description">3751fd0e73141300612c273ffff6a7a6</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=7fe509ea973fbd10489d747e6253af68"/>
+    <sys_element_mapping action="DELETE">
+        <field>ah_fields</field>
+        <id>7fe509ea973fbd10489d747e6253af68</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>3fe509ea973fbd10489d747e6253af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_requested_item</field>
+        <id>7fe509ea973fbd10489d747e6253af68</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>7be509ea973fbd10489d747e6253af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>ah_short_description</field>
+        <id>7fe509ea973fbd10489d747e6253af68</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>b7e509ea973fbd10489d747e6253af6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=7fe509ea973fbd10489d747e6253af68"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=7fe509ea973fbd10489d747e6253af68"/>
+    <sys_hub_action_instance action="DELETE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Flow de novo funcionario - Desafio">aa70c966973fbd10489d747e6253af61</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>bbe509ea973fbd10489d747e6253af79</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:21</sys_updated_on>
+        <ui_id>97715bb1-3d00-4d52-85da-76d3b84dbde7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="DELETE" query="document_key=bbe509ea973fbd10489d747e6253af79"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bbe509ea973fbd10489d747e6253af79</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>b7e509ea973fbd10489d747e6253af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_instance</document>
+        <document_key>bbe509ea973fbd10489d747e6253af79</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>f3e509ea973fbd10489d747e6253af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <value>state=2</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=bbe509ea973fbd10489d747e6253af79"/>
+    <sys_element_mapping action="DELETE">
+        <field>record</field>
+        <id>bbe509ea973fbd10489d747e6253af79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>73e509ea973fbd10489d747e6253af7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>bbe509ea973fbd10489d747e6253af79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>fbe509ea973fbd10489d747e6253af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>values</field>
+        <id>bbe509ea973fbd10489d747e6253af79</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>bfe509ea973fbd10489d747e6253af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="DELETE" query="instance=bbe509ea973fbd10489d747e6253af79"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=bbe509ea973fbd10489d747e6253af79"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=aa70c966973fbd10489d747e6253af61"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=aa70c966973fbd10489d747e6253af61"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=aa70c966973fbd10489d747e6253af61"/>
+    <sys_hub_flow_variable action="DELETE" query="model=aa70c966973fbd10489d747e6253af61"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61^sys_idNOT IN3be509ea973fbd10489d747e6253af4e,be70c966973fbd10489d747e6253afd3"/>
+    <sys_documentation action="DELETE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:20</sys_created_on>
+        <sys_id>3be509ea973fbd10489d747e6253af4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:18:31</sys_created_on>
+        <sys_id>be70c966973fbd10489d747e6253afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:18:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_aa70c966973fbd10489d747e6253af61"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_aa70c966973fbd10489d747e6253af61"/>
+    <sys_hub_flow action="DELETE">
+        <sys_id>e33fb026973fbd10489d747e6253af46</sys_id>
+        <latest_snapshot>aa70c966973fbd10489d747e6253af61</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch10-hotfix1a-09-18-2023_10-06-2023_1603.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sys_hub_flow_e33fb026973fbd10489d747e6253af46</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from&gt;9a41b6c2ff12101088e94ee9453bf1a4&lt;/copied_from&gt;&lt;copied_from_name&gt;FlowTemplate_Empty&lt;/copied_from_name&gt;&lt;description/&gt;&lt;internal_name&gt;flow_de_novo_funcionario__desafio&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task","label":"1 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;aa70c966973fbd10489d747e6253af61&lt;/master_snapshot&gt;&lt;name&gt;Flow de novo funcionario - Desafio&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id&gt;4cf509ea973fbd10489d747e6253aff6&lt;/remote_trigger_id&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:13:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e33fb026973fbd10489d747e6253af46&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;Flow de novo funcionario - Desafio&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Novos funcionários" source="x_1173448_novos_0"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_e33fb026973fbd10489d747e6253af46&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:22&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_flow_catalog_trigger action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;catalog_item/&gt;&lt;name/&gt;&lt;run_flow_in&gt;background&lt;/run_flow_in&gt;&lt;sys_class_name&gt;sys_flow_catalog_trigger&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:21&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4cf509ea973fbd10489d747e6253aff6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;/sys_flow_catalog_trigger&gt;&lt;sys_trigger_runner_mapping action="delete_multiple" query="identifier=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=e33fb026973fbd10489d747e6253af46^sys_idNOT IN46e585ea973fbd10489d747e6253afc9"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;e33fb026973fbd10489d747e6253af46&lt;/flow&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;46e585ea973fbd10489d747e6253afc9&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=46e585ea973fbd10489d747e6253afc9"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=e33fb026973fbd10489d747e6253af46^sys_idNOT INa33fb026973fbd10489d747e6253af48"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;e33fb026973fbd10489d747e6253af46&lt;/id&gt;&lt;name&gt;Flow de novo funcionario - Desafio&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:13:07&lt;/sys_created_on&gt;&lt;sys_id&gt;a33fb026973fbd10489d747e6253af48&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:13:07&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a33fb026973fbd10489d747e6253af48"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=e33fb026973fbd10489d747e6253af46^sys_idNOT IN61708966973fbd10489d747e6253af98,fde585ea973fbd10489d747e6253afb4"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Flow de novo funcionario - Desafio"&gt;e33fb026973fbd10489d747e6253af46&lt;/model&gt;&lt;model_id&gt;e33fb026973fbd10489d747e6253af46&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:18:25&lt;/sys_created_on&gt;&lt;sys_id&gt;61708966973fbd10489d747e6253af98&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Flow de novo funcionario - Desafio"&gt;e33fb026973fbd10489d747e6253af46&lt;/model&gt;&lt;model_id&gt;e33fb026973fbd10489d747e6253af46&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:12&lt;/sys_created_on&gt;&lt;sys_id&gt;fde585ea973fbd10489d747e6253afb4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=e33fb026973fbd10489d747e6253af46^sys_idNOT IN06e585ea973fbd10489d747e6253afed,8ee585ea973fbd10489d747e6253afdd,8ee585ea973fbd10489d747e6253afe6"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;e33fb026973fbd10489d747e6253af46&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;06e585ea973fbd10489d747e6253afed&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;97715bb1-3d00-4d52-85da-76d3b84dbde7&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=06e585ea973fbd10489d747e6253afed"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;06e585ea973fbd10489d747e6253afed&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;86e585ea973fbd10489d747e6253afef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;value&gt;sc_req_item&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;06e585ea973fbd10489d747e6253afed&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c2e585ea973fbd10489d747e6253afef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;value&gt;state=2&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=06e585ea973fbd10489d747e6253afed"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;06e585ea973fbd10489d747e6253afed&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;42e585ea973fbd10489d747e6253afef&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;06e585ea973fbd10489d747e6253afed&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cae585ea973fbd10489d747e6253afee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;06e585ea973fbd10489d747e6253afed&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8ee585ea973fbd10489d747e6253afee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=06e585ea973fbd10489d747e6253afed"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=06e585ea973fbd10489d747e6253afed"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Catalog Task"&gt;af51fd0e73141300612c273ffff6a785&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;e33fb026973fbd10489d747e6253af46&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8ee585ea973fbd10489d747e6253afdd&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;4c641638-558d-4a97-98cb-767beb000cfe&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8ee585ea973fbd10489d747e6253afdd"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8ee585ea973fbd10489d747e6253afdd&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c2e585ea973fbd10489d747e6253afe1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;value&gt;Criar login e senha&lt;/value&gt;&lt;variable display_value="Short Description"&gt;3751fd0e73141300612c273ffff6a7a6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8ee585ea973fbd10489d747e6253afdd&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cae585ea973fbd10489d747e6253afe1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;value&gt;assignment_group={"display":"Analistas","value":"112ca17c978bf110489d747e6253af21","sys_id":"112ca17c978bf110489d747e6253af21"}&lt;/value&gt;&lt;variable display_value="Fields"&gt;7751fd0e73141300612c273ffff6a7ac&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=8ee585ea973fbd10489d747e6253afdd"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_fields&lt;/field&gt;&lt;id&gt;8ee585ea973fbd10489d747e6253afdd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;42e585ea973fbd10489d747e6253afe1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_requested_item&lt;/field&gt;&lt;id&gt;8ee585ea973fbd10489d747e6253afdd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8ee585ea973fbd10489d747e6253afe0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785&lt;/table&gt;&lt;value&gt;{{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_short_description&lt;/field&gt;&lt;id&gt;8ee585ea973fbd10489d747e6253afdd&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c6e585ea973fbd10489d747e6253afe0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=8ee585ea973fbd10489d747e6253afdd"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8ee585ea973fbd10489d747e6253afdd"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Wait For Condition"&gt;89ce8a4187120010663ca1bb36cb0be3&lt;/action_type&gt;&lt;action_type_parent/&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;e33fb026973fbd10489d747e6253af46&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8ee585ea973fbd10489d747e6253afe6&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:22&lt;/sys_updated_on&gt;&lt;ui_id&gt;63b79aa5-5101-4349-9d89-e9492d952ae9&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=8ee585ea973fbd10489d747e6253afe6"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8ee585ea973fbd10489d747e6253afe6&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;86e585ea973fbd10489d747e6253afe9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;value&gt;sc_task&lt;/value&gt;&lt;variable display_value="Table"&gt;45ce8a4187120010663ca1bb36cb0bea&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;8ee585ea973fbd10489d747e6253afe6&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c2e585ea973fbd10489d747e6253afe9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value="Conditions"&gt;49ce8a4187120010663ca1bb36cb0bef&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=8ee585ea973fbd10489d747e6253afe6"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;8ee585ea973fbd10489d747e6253afe6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;8ee585ea973fbd10489d747e6253afe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;8ee585ea973fbd10489d747e6253afe6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;cae585ea973fbd10489d747e6253afe8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value&gt;{{4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;8ee585ea973fbd10489d747e6253afe6&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;42e585ea973fbd10489d747e6253afe9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=8ee585ea973fbd10489d747e6253afe6"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=8ee585ea973fbd10489d747e6253afe6"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46^sys_idNOT INa5708966973fbd10489d747e6253af9a,c2e585ea973fbd10489d747e6253afb8"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:18:25&lt;/sys_created_on&gt;&lt;sys_id&gt;a5708966973fbd10489d747e6253af9a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Novos funcionários" source="x_1173448_novos_0"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:18:25&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:13&lt;/sys_created_on&gt;&lt;sys_id&gt;c2e585ea973fbd10489d747e6253afb8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Novos funcionários" source="x_1173448_novos_0"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:13&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=e33fb026973fbd10489d747e6253af46^sys_idNOT IN7a70c966973fbd10489d747e6253aff2"/&gt;&lt;sys_flow_trigger_plan action="INSERT_OR_UPDATE"&gt;&lt;binding_strategy&gt;com.snc.process_flow.engine.binding.RunAlways&lt;/binding_strategy&gt;&lt;plan&gt;{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7a70c966973fbd10489d747e6253aff2","name":"plan","plan_signature":null}}&lt;/plan&gt;&lt;plan_id&gt;e33fb026973fbd10489d747e6253af46&lt;/plan_id&gt;&lt;snapshot&gt;aa70c966973fbd10489d747e6253af61&lt;/snapshot&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:18:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7a70c966973fbd10489d747e6253aff2&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_overrides/&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;trigger display_value=""&gt;4cf509ea973fbd10489d747e6253aff6&lt;/trigger&gt;&lt;/sys_flow_trigger_plan&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=e33fb026973fbd10489d747e6253af46"/&gt;&lt;sys_hub_flow_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;copied_from&gt;9a41b6c2ff12101088e94ee9453bf1a4&lt;/copied_from&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;internal_name&gt;flow_de_novo_funcionario__desafio&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task","label":"1 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.table_name","label":"Trigger - Service Catalog➛Table Name","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.table_name","label":"Trigger - Record Created➛User Table","reference":"sys_user","reference_display":"User","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Flow de novo funcionario - Desafio&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;parent_flow display_value="Flow de novo funcionario - Desafio"&gt;e33fb026973fbd10489d747e6253af46&lt;/parent_flow&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;status&gt;published&lt;/status&gt;&lt;sys_class_name&gt;sys_hub_flow_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:18:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;aa70c966973fbd10489d747e6253af61&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;/sys_hub_flow_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_hub_trigger_instance action="delete_multiple" query="flow=aa70c966973fbd10489d747e6253af61^sys_idNOT INffe509ea973fbd10489d747e6253af5f"/&gt;&lt;sys_hub_trigger_instance action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;aa70c966973fbd10489d747e6253af61&lt;/flow&gt;&lt;name&gt;Service Catalog&lt;/name&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;ffe509ea973fbd10489d747e6253af5f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Service Catalog"&gt;c43a1011c36813002841b63b12d3ae15&lt;/trigger_definition&gt;&lt;trigger_inputs/&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;service_catalog&lt;/trigger_type&gt;&lt;/sys_hub_trigger_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=ffe509ea973fbd10489d747e6253af5f"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=aa70c966973fbd10489d747e6253af61^sys_idNOT IN2e70c966973fbd10489d747e6253af62"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;aa70c966973fbd10489d747e6253af61&lt;/id&gt;&lt;name&gt;Flow de novo funcionario - Desafio&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:18:30&lt;/sys_created_on&gt;&lt;sys_id&gt;2e70c966973fbd10489d747e6253af62&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:18:30&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2e70c966973fbd10489d747e6253af62"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=aa70c966973fbd10489d747e6253af61^sys_idNOT IN3a70c966973fbd10489d747e6253afcf,63e509ea973fbd10489d747e6253af4a"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;sc_req_item&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Flow de novo funcionario - Desafio"&gt;aa70c966973fbd10489d747e6253af61&lt;/model&gt;&lt;model_id&gt;aa70c966973fbd10489d747e6253af61&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;true&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:18:30&lt;/sys_created_on&gt;&lt;sys_id&gt;3a70c966973fbd10489d747e6253afcf&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;model display_value="Flow de novo funcionario - Desafio"&gt;aa70c966973fbd10489d747e6253af61&lt;/model&gt;&lt;model_id&gt;aa70c966973fbd10489d747e6253af61&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sc_req_item"&gt;sc_req_item&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;63e509ea973fbd10489d747e6253af4a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_hub_action_instance action="delete_multiple" query="flow=aa70c966973fbd10489d747e6253af61^sys_idNOT IN73e509ea973fbd10489d747e6253af72,7fe509ea973fbd10489d747e6253af68,bbe509ea973fbd10489d747e6253af79"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Wait For Condition"&gt;89ce8a4187120010663ca1bb36cb0be3&lt;/action_type&gt;&lt;action_type_parent display_value="Wait For Condition"&gt;8bb9a8160b10030085c083eb37673aec&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;aa70c966973fbd10489d747e6253af61&lt;/flow&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;73e509ea973fbd10489d747e6253af72&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;ui_id&gt;63b79aa5-5101-4349-9d89-e9492d952ae9&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=73e509ea973fbd10489d747e6253af72"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;73e509ea973fbd10489d747e6253af72&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;33e509ea973fbd10489d747e6253af74&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;value&gt;state=3&lt;/value&gt;&lt;variable display_value="Conditions"&gt;49ce8a4187120010663ca1bb36cb0bef&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;73e509ea973fbd10489d747e6253af72&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;f3e509ea973fbd10489d747e6253af74&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;value&gt;sc_task&lt;/value&gt;&lt;variable display_value="Table"&gt;45ce8a4187120010663ca1bb36cb0bea&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=73e509ea973fbd10489d747e6253af72"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;73e509ea973fbd10489d747e6253af72&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;fbe509ea973fbd10489d747e6253af73&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;73e509ea973fbd10489d747e6253af72&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;3be509ea973fbd10489d747e6253af73&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value&gt;{{4c641638-558d-4a97-98cb-767beb000cfe.Catalog Task}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;73e509ea973fbd10489d747e6253af72&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;bfe509ea973fbd10489d747e6253af73&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=73e509ea973fbd10489d747e6253af72"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=73e509ea973fbd10489d747e6253af72"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Create Catalog Task"&gt;af51fd0e73141300612c273ffff6a785&lt;/action_type&gt;&lt;action_type_parent display_value="Create Catalog Task"&gt;f597c41073081300612c273ffff6a767&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;aa70c966973fbd10489d747e6253af61&lt;/flow&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;7fe509ea973fbd10489d747e6253af68&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;ui_id&gt;4c641638-558d-4a97-98cb-767beb000cfe&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=7fe509ea973fbd10489d747e6253af68"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;7fe509ea973fbd10489d747e6253af68&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;73e509ea973fbd10489d747e6253af6b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;value&gt;assignment_group={"display":"Analistas","value":"112ca17c978bf110489d747e6253af21","sys_id":"112ca17c978bf110489d747e6253af21"}&lt;/value&gt;&lt;variable display_value="Fields"&gt;7751fd0e73141300612c273ffff6a7ac&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;7fe509ea973fbd10489d747e6253af68&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;bfe509ea973fbd10489d747e6253af6a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;value&gt;Criar login e senha&lt;/value&gt;&lt;variable display_value="Short Description"&gt;3751fd0e73141300612c273ffff6a7a6&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=7fe509ea973fbd10489d747e6253af68"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_fields&lt;/field&gt;&lt;id&gt;7fe509ea973fbd10489d747e6253af68&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;3fe509ea973fbd10489d747e6253af6a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_requested_item&lt;/field&gt;&lt;id&gt;7fe509ea973fbd10489d747e6253af68&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;7be509ea973fbd10489d747e6253af6a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785&lt;/table&gt;&lt;value&gt;{{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;ah_short_description&lt;/field&gt;&lt;id&gt;7fe509ea973fbd10489d747e6253af68&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;b7e509ea973fbd10489d747e6253af6a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=7fe509ea973fbd10489d747e6253af68"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=7fe509ea973fbd10489d747e6253af68"/&gt;&lt;sys_hub_action_instance action="INSERT_OR_UPDATE"&gt;&lt;action_inputs/&gt;&lt;action_inputs/&gt;&lt;action_type display_value="Update Record"&gt;f9d01dd2c31332002841b63b12d3aea1&lt;/action_type&gt;&lt;action_type_parent display_value="Update Record"&gt;baf174c8c3c232002841b63b12d3aee4&lt;/action_type_parent&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Flow de novo funcionario - Desafio"&gt;aa70c966973fbd10489d747e6253af61&lt;/flow&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;bbe509ea973fbd10489d747e6253af79&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:21&lt;/sys_updated_on&gt;&lt;ui_id&gt;97715bb1-3d00-4d52-85da-76d3b84dbde7&lt;/ui_id&gt;&lt;/sys_hub_action_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=bbe509ea973fbd10489d747e6253af79"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;bbe509ea973fbd10489d747e6253af79&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;b7e509ea973fbd10489d747e6253af7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;value&gt;sc_req_item&lt;/value&gt;&lt;variable display_value="Table"&gt;b5d01916c31332002841b63b12d3aec9&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_instance&lt;/document&gt;&lt;document_key&gt;bbe509ea973fbd10489d747e6253af79&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;f3e509ea973fbd10489d747e6253af7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;value&gt;state=2&lt;/value&gt;&lt;variable display_value="Fields"&gt;02d01916c31332002841b63b12d3aeee&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=bbe509ea973fbd10489d747e6253af79"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;record&lt;/field&gt;&lt;id&gt;bbe509ea973fbd10489d747e6253af79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;73e509ea973fbd10489d747e6253af7b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value&gt;{{Service Catalog_1.request_item}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;bbe509ea973fbd10489d747e6253af79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;fbe509ea973fbd10489d747e6253af7a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;values&lt;/field&gt;&lt;id&gt;bbe509ea973fbd10489d747e6253af79&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;bfe509ea973fbd10489d747e6253af7a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=bbe509ea973fbd10489d747e6253af79"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=bbe509ea973fbd10489d747e6253af79"/&gt;&lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_hub_flow_logic action="delete_multiple" query="flow=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61^sys_idNOT IN3be509ea973fbd10489d747e6253af4e,be70c966973fbd10489d747e6253afd3"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;request_item&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Request Item&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:42:20&lt;/sys_created_on&gt;&lt;sys_id&gt;3be509ea973fbd10489d747e6253af4e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Novos funcionários" source="x_1173448_novos_0"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:42:20&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-20 17:18:31&lt;/sys_created_on&gt;&lt;sys_id&gt;be70c966973fbd10489d747e6253afd3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Novos funcionários" source="x_1173448_novos_0"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Novos funcionários"&gt;440cf822973fbd10489d747e6253af14&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-20 17:18:31&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_aa70c966973fbd10489d747e6253af61"/&gt;&lt;sys_hub_flow action="UPDATE"&gt;&lt;sys_id&gt;e33fb026973fbd10489d747e6253af46&lt;/sys_id&gt;&lt;latest_snapshot&gt;aa70c966973fbd10489d747e6253af61&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-tokyo-07-08-2022__patch10-hotfix1a-09-18-2023_10-06-2023_1603.zip&lt;/compiler_build&gt;&lt;/sys_hub_flow&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-396791236</payload_hash>
+        <record_name>Flow de novo funcionario - Desafio</record_name>
+        <reverted_from/>
+        <source>8c0cf822973fbd10489d747e6253af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 17:42:22</sys_created_on>
+        <sys_id>d8f549ea973fbd10489d747e6253af3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d27f76a800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 17:42:22</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>14f549ea853fbd10945637e36294e53a</update_guid>
+        <update_guid_history>14f549ea853fbd10945637e36294e53a:-396791236,e7e509eab73fbd10c9ed9d3bf2a9c107:2138188067,9ee5c5ead93fbd10ca141ebfd644b120:-418225751,c7700d66503fbd10681bd08196b6cc1c:1087571771,6d7089669b3fbd106756f5d1091195d2:-1061244206,b33fb0261e3fbd10a0f3e0ef87d3844e:-1526327107</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 18:17:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>6f8fdd4cc2ad4228862dc84d6b548640</sys_id>
+        <sys_metadata>e33fb026973fbd10489d747e6253af46</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Flow de novo funcionario - Desafio</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_e33fb026973fbd10489d747e6253af46</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_e33fb026973fbd10489d747e6253af46">d8f549ea973fbd10489d747e6253af3a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 18:17:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

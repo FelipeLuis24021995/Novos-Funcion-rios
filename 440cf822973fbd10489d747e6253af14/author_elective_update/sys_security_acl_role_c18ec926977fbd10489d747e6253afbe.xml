@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 18:19:50</sys_created_on>
+        <sys_id>c18ec926977fbd10489d747e6253afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1173448_novos_0_novos_funcionarios.x_1173448_novos_0.operacional - desafio</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_security_acl display_value="x_1173448_novos_0_novos_funcionarios">818ec926977fbd10489d747e6253afbc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c18ec926977fbd10489d747e6253afbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 18:19:50</sys_updated_on>
+        <sys_user_role display_value="x_1173448_novos_0.operacional - desafio" name="x_1173448_novos_0.operacional - desafio">580cf822973fbd10489d747e6253af2b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sys_security_acl_role_c18ec926977fbd10489d747e6253afbe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-20 18:19:50</sys_created_on><sys_id>c18ec926977fbd10489d747e6253afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1173448_novos_0_novos_funcionarios.x_1173448_novos_0.operacional - desafio</sys_name><sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package><sys_policy/><sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope><sys_security_acl display_value="x_1173448_novos_0_novos_funcionarios">818ec926977fbd10489d747e6253afbc</sys_security_acl><sys_update_name>sys_security_acl_role_c18ec926977fbd10489d747e6253afbe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-20 18:19:50</sys_updated_on><sys_user_role display_value="x_1173448_novos_0.operacional - desafio" name="x_1173448_novos_0.operacional - desafio">580cf822973fbd10489d747e6253af2b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>958856520</payload_hash>
+        <record_name>x_1173448_novos_0_novos_funcionarios.x_1173448_novos_0.operacional - desafio</record_name>
+        <reverted_from/>
+        <source>8c0cf822973fbd10489d747e6253af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 18:19:50</sys_created_on>
+        <sys_id>c18ec926977fbd10489d747e6253afc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d2819b81e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 18:19:50</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>0d8ec926cf7fbd10274759365000ffbf</update_guid>
+        <update_guid_history>0d8ec926cf7fbd10274759365000ffbf:958856520</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1173448_novos_0_novos_funcionarios.x_1173448_novos_0.operacional - desafio">f9bd212a97ffbd10489d747e6253afb5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 20:36:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>a5602c8a46764b6dbf2c03dafa0a3c21</sys_id>
+        <sys_metadata>c18ec926977fbd10489d747e6253afbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1173448_novos_0_novos_funcionarios.x_1173448_novos_0.operacional - desafio</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent display_value="">818ec926977fbd10489d747e6253afbc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_c18ec926977fbd10489d747e6253afbe</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_c18ec926977fbd10489d747e6253afbe">c18ec926977fbd10489d747e6253afc0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 20:36:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

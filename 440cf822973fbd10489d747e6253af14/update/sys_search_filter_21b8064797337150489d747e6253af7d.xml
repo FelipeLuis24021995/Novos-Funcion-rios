@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Notebook">98ef3dea9733fd10489d747e6253af0f</ais_search_source>
+        <label>Notebook</label>
+        <name>Notebook</name>
+        <order>100</order>
+        <search_context_config display_value="Onboarding de novos colaboradores AI Search Config">9cb88247b133715055b2bc157a7a61b0</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 11:51:03</sys_created_on>
+        <sys_id>21b8064797337150489d747e6253af7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notebook</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sys_search_filter_21b8064797337150489d747e6253af7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 11:51:03</sys_updated_on>
+    </sys_search_filter>
+</record_update>

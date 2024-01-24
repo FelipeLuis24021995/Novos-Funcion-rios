@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="processador" table="x_1173448_novos_0_notebook" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>processador</element>
+            <name>x_1173448_novos_0_notebook</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-21 02:46:02</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>processador</sys_name>
+            <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+            <sys_update_name>sys_choice_x_1173448_novos_0_notebook_processador</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-21 02:46:02</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>processador</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>i3</label>
+            <language>en</language>
+            <name>x_1173448_novos_0_notebook</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-21 02:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>446283a69777fd10489d747e6253afee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-21 02:46:02</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>processador</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>i5</label>
+            <language>en</language>
+            <name>x_1173448_novos_0_notebook</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-21 02:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc6283a69777fd10489d747e6253afef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-21 02:46:02</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>processador</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>i7</label>
+            <language>en</language>
+            <name>x_1173448_novos_0_notebook</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-21 02:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c6283a69777fd10489d747e6253aff0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-21 02:46:02</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>processador</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>i9</label>
+            <language>en</language>
+            <name>x_1173448_novos_0_notebook</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-21 02:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c86283a69777fd10489d747e6253aff1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-21 02:46:02</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

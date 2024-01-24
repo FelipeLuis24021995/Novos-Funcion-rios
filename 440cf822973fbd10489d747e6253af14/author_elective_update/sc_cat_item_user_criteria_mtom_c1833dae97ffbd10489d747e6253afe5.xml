@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Novo funcionario">ceeda52a97ffbd10489d747e6253af27</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:01:29</sys_created_on>
+        <sys_id>c1833dae97ffbd10489d747e6253afe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Novo funcionario.Any User</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c1833dae97ffbd10489d747e6253afe5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:01:29</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</application>
+        <file_path/>
+        <instance_id>75ed3991db8bff400ae3ac44d4961901</instance_id>
+        <instance_name>dev90474</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_c1833dae97ffbd10489d747e6253afe5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Novo funcionario">ceeda52a97ffbd10489d747e6253af27</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-20 21:01:29</sys_created_on><sys_id>c1833dae97ffbd10489d747e6253afe5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Novo funcionario.Any User</sys_name><sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package><sys_policy/><sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_c1833dae97ffbd10489d747e6253afe5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-20 21:01:29</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-1308297011</payload_hash>
+        <record_name>Novo funcionario.Any User</record_name>
+        <reverted_from/>
+        <source>8c0cf822973fbd10489d747e6253af16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:01:29</sys_created_on>
+        <sys_id>c5833dae97ffbd10489d747e6253afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d28adb61a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:01:29</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>4d833daed5ffbd108ce6073ad09949e7</update_guid>
+        <update_guid_history>4d833daed5ffbd108ce6073ad09949e7:-1308297011</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Novo funcionario.Any User">f9837dae97ffbd10489d747e6253af29</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-20 21:01:32</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>7296bd9613e548ce9c0cf63808503789</sys_id>
+        <sys_metadata>c1833dae97ffbd10489d747e6253afe5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Novo funcionario.Any User</sys_name>
+        <sys_package display_value="Novos funcionários" source="x_1173448_novos_0">440cf822973fbd10489d747e6253af14</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Novos funcionários">440cf822973fbd10489d747e6253af14</sys_scope>
+        <sys_scope_delete display_value="">47506daca9b64c96a669196025ba3a29</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c1833dae97ffbd10489d747e6253afe5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_c1833dae97ffbd10489d747e6253afe5">c5833dae97ffbd10489d747e6253afe8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-20 21:01:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
